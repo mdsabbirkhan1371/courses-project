@@ -1,17 +1,24 @@
+import { useState } from 'react'
 import './App.css'
-import Course_Name from './Components/Course_name/Course_Name'
+import Courses_Name from './Components/Courses_name/Courses_Name'
 import Courses from './Components/Courses/Courses'
 import Header from './Components/Header/Header'
 
 function App() {
-  
+    const [addCourses,setaddCourses]=useState([])
+
+    const handleAddCourse=(name)=>{
+      const newCourseName = [...addCourses,name]
+      setaddCourses(newCourseName)
+    }
+    
 
   return (
     <>
     <Header></Header>
     <div className='md:flex'>
-      <Courses></Courses>
-      <Course_Name></Course_Name>
+      <Courses handleAddCourse={handleAddCourse}></Courses>
+      <Courses_Name addCourses={addCourses}></Courses_Name>
     </div>
     </>
   )
