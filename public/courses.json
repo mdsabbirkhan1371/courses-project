@@ -1,0 +1,120 @@
+[
+    {
+      "id": 1,
+      "course_name": "Introduction to C Programming",
+      "price": 5999,
+      "credit_hr": 4,
+      "img": "../Asset/Rectangle 2-2.png",
+      "course_details": {
+        "description": "Master the fundamentals of programming with the C language. Learn about variables, data types, control structures, functions, arrays, pointers, and memory management. Gain hands-on experience with practical programming exercises and projects.",
+        "instructor": "Robert Johnson",
+        "duration": "5 weeks",
+        "level": "Beginner"
+      }
+    },
+    {
+      "id": 2,
+      "course_name": "Introduction to Algorithms",
+      "price": 6999,
+      "credit_hr": 4,
+      "img": "../Asset/Rectangle 2-3.png",
+      "course_details": {
+        "description": "Explore fundamental algorithms and data structures essential for solving complex problems. Topics include searching, sorting, graph algorithms, and algorithmic analysis.",
+        "instructor": "Sarah Lee",
+        "duration": "6 weeks",
+        "level": "Intermediate"
+      }
+    },
+    {
+      "id": 3,
+      "course_name": "Introduction to C++ for DSA",
+      "price": 7999,
+      "credit_hr": 5,
+      "img": "../Asset/Rectangle 2-4.png",
+      "course_details": {
+        "description": "Learn the basics of C++ programming language and its application in data structures and algorithms. Covers object-oriented programming concepts, classes, inheritance, polymorphism, and templates.",
+        "instructor": "Daniel Wilson",
+        "duration": "6 weeks",
+        "level": "Intermediate"
+      }
+    },
+    {
+      "id": 4,
+      "course_name": "Basic Data Structures",
+      "price": 4999,
+      "credit_hr": 3,
+      "img": "../Asset/Rectangle 3.png",
+      "course_details": {
+        "description": "Explore essential data structures such as arrays, linked lists, stacks, queues, trees, and graphs. Learn how to implement these data structures and analyze their time and space complexities.",
+        "instructor": "Emma Taylor",
+        "duration": "4 weeks",
+        "level": "Beginner"
+      }
+    },
+    {
+      "id": 5,
+      "course_name": "Introduction to OOP Python",
+      "price": 6999,
+      "credit_hr": 4,
+      "img": "../Asset/Rectangle 2.png",
+      "course_details": {
+        "description": "Discover object-oriented programming (OOP) concepts using Python. Learn how to create classes, objects, encapsulation, inheritance, polymorphism, and abstraction. Apply OOP principles to solve real-world problems.",
+        "instructor": "Laura Martinez",
+        "duration": "6 weeks",
+        "level": "Intermediate"
+      }
+    },
+    {
+      "id": 6,
+      "course_name": "Software Engineering",
+      "price": 8999,
+      "credit_hr": 6,
+      "img": "../Asset/Rectangle 2-5.png",
+      "course_details": {
+        "description": "Learn the principles and practices of software engineering, including requirements engineering, software design, development methodologies, testing, and maintenance. Gain practical experience through team projects.",
+        "instructor": "Michael Brown",
+        "duration": "8 weeks",
+        "level": "Advanced"
+      }
+    },
+    {
+      "id": 7,
+      "course_name": "AWS, Cloud Computing",
+      "price": 7999,
+      "credit_hr": 5,
+      "img": "../Asset/Rectangle 3-1.png",
+      "course_details": {
+        "description": "Explore Amazon Web Services (AWS) and cloud computing concepts. Learn about cloud infrastructure, services, deployment models, security, and best practices. Gain hands-on experience with AWS services.",
+        "instructor": "Emily Johnson",
+        "duration": "6 weeks",
+        "level": "Intermediate"
+      }
+    },
+    {
+      "id": 8,
+      "course_name": "Database (MySQL)",
+      "price": 5999,
+      "credit_hr": 4,
+      "img": "../Asset/Rectangle 2-1.png",
+      "course_details": {
+        "description": "Learn database management using MySQL. Topics include database design, SQL queries, data manipulation, transactions, indexing, and database administration.",
+        "instructor": "David White",
+        "duration": "5 weeks",
+        "level": "Beginner"
+      }
+    },
+    {
+      "id": 9,
+      "course_name": "Problem-Solving Par",
+      "price": 0,
+      "credit_hr": 0,
+      "img": "../Asset/Rectangle 2-6.png",
+      "course_details": {
+        "description": "Practice problem-solving techniques and algorithms through programming challenges. Improve your critical thinking and coding skills by solving a variety of problems across different difficulty levels.",
+        "instructor": "Various",
+        "duration": "Self-paced",
+        "level": "All Levels"
+      }
+    }
+  ]
+  
