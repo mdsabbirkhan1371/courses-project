@@ -1,8 +1,6 @@
 import PropTypes from 'prop-types';
-
-
 const Course_Name = ({course,idx}) => {
-    
+    console.log(course)
     return (
         <div>                
             <ol>

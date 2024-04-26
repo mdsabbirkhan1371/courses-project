@@ -29,7 +29,7 @@ const Course = ({course,handleAddCourse}) => {
                                             
 
                         <div className="card-actions">
-                            <button onClick={()=>handleAddCourse(course_name)} className="btn btn-primary w-full">Select</button>
+                            <button onClick={()=>handleAddCourse(course_name,credit_hr,id)} className="btn btn-primary w-full">Select</button>
                         </div>  
                     </div>
             </div>

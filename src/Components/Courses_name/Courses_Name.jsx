@@ -1,18 +1,19 @@
 import Course_Name from "./Course_name/Course_Name";
 import PropTypes from 'prop-types';
 
-const Courses_Name = ({addCourses}) => {
+const Courses_Name = ({addCourses,remainingHr}) => {
     // console.log(addCourses)
+    console.log( remainingHr)
     return (
         <div className="md:w-1/3 p-6 rounded-2xl bg-gray-800 text-2xl font-semibold space-y-3">
-            <h1 className="text-red-600">Credit Hour Remaining hr</h1>
+            <h1 className="text-red-600">Credit Hour Remaining {remainingHr} hr</h1>
             <hr />
 
             <h3 className="">Course Name : {addCourses.length}</h3>
 
 
                 {
-                   addCourses.map((course,idx)=><Course_Name key={idx} course={course} idx={idx}></Course_Name>) 
+                   addCourses.map((course,idx)=><Course_Name  key={idx} course={course} idx={idx}></Course_Name>) 
                 }
           
             
@@ -20,6 +21,7 @@ const Courses_Name = ({addCourses}) => {
     );
 };
 Courses_Name.propTypes={
-    addCourses: PropTypes.array
+    addCourses: PropTypes.array.isRequired,
+    remainingHr: PropTypes.number.isRequired
 }
 export default Courses_Name;
